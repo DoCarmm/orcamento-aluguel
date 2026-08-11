@@ -61,3 +61,43 @@ orcamento-aluguel/
 ├── orcamento.csv
 ├── .gitignore
 └── README.md
+```
+
+## Como executar
+
+Com o Python instalado, abra o terminal na pasta do projeto e execute:
+
+```bash
+python main.py
+```
+
+Depois, informe os dados solicitados pelo programa.
+
+Ao final da execução, será gerado o arquivo `orcamento.csv` contendo as 12 parcelas do orçamento.
+
+## Exemplo de resultado
+
+```text
+Orçamento gerado com sucesso.
+Valor mensal do aluguel: R$ 1.140,00
+Contrato parcelado em 5x de R$ 400,00
+Arquivo CSV gerado: orcamento.csv
+```
+
+## Conceitos utilizados
+
+Durante o desenvolvimento foram utilizados conceitos de Programação Orientada a Objetos, como:
+
+- Classes e objetos
+- Atributos
+- Métodos
+- Herança
+- Sobrescrita de métodos
+
+Também foram utilizados tratamento de exceções, funções auxiliares e manipulação de arquivos CSV.
+
+## Autor
+
+Andrey Vitor Nascimento do Carmo
+
+Projeto desenvolvido para a disciplina de Algorithmic Thinking & Introduction to Object-Oriented Programming.
